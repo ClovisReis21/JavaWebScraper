@@ -32,7 +32,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 There is a path conflict between debug running and npm run *, so please use only npm run *
 
-result expected (terminal):
+## result expected (terminal):
 
     App iniciado...
     Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 41013
