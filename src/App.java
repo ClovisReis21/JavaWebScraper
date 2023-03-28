@@ -20,8 +20,8 @@ public class App {
     }
 
     @Before
-    public static void setUp() throws Exception {
-        String currentPath = new java.io.File("src\\drivers\\chromedriver.exe").getCanonicalPath();
+    public static void setUp() throws Exception {        
+        String currentPath = new java.io.File(".\\drivers\\chromedriver.exe").getCanonicalPath();
         System.setProperty("webdriver.chrome.driver", currentPath);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
