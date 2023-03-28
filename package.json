@@ -1,0 +1,28 @@
+{
+  "name": "javawebscraper",
+  "version": "1.0.0",
+  "description": "Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.",
+  "main": "App.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "cd src && javac -cp ..\\lib\\selenium-libs.jar;..\\lib\\junit-4.13.2.jar App.java && jar cvf App.jar ..\\lib\\selenium-libs.jar ..\\lib\\junit-4.13.2.jar App.class",
+    "start": "cd src && node App.js",
+    "test": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClovisReis21/JavaWebScraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClovisReis21/JavaWebScraper/issues"
+  },
+  "homepage": "https://github.com/ClovisReis21/JavaWebScraper#readme",
+  "dependencies": {
+    "java": "^0.12.2"
+  }
+}
